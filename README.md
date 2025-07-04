@@ -74,3 +74,8 @@ This will result in safer, less IP tracking during usage.
 This bot functions as a browser extension, so you need to add it through your browser's extensions page
 
 Please ensure that your DuckDNS settings and your modem's port forwarding rules are configured correctly
+
+To start the server, run the server.js file using Node.js with the following command: 
+```
+node server.js
+```
