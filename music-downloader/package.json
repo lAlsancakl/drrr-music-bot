@@ -1,7 +1,7 @@
 {
   "name": "drrr-music-downloader",
   "version": "1.0.0",
-  "description": "YouTube'dan müzik arayıp mp3 linki dönen DRRR bot sunucusu.",
+  "description": "DRRR bot server that searches for music on YouTube and returns mp3 links.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
