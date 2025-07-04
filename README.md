@@ -72,3 +72,5 @@ Untick the setting **"Allow only music casted from verified URL"**
 This will result in safer, less IP tracking during usage.
 
 This bot functions as a browser extension, so you need to add it through your browser's extensions page
+
+Please ensure that your DuckDNS settings and your modem's port forwarding rules are configured correctly
