@@ -47,6 +47,7 @@ The bot uses this folder to locate the ffmpeg binaries necessary for converting 
 > **Note:**  
 > - If ffmpeg is not correctly installed or the folder is missing, audio processing will fail.  
 > - Make sure the ffmpeg executable inside this folder has proper permissions.
+> - Make sure to add C:\ffmpeg\bin to your system environment variables.
 
 ---
 
