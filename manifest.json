@@ -1,0 +1,31 @@
+{
+    "name": "Dollars Bot",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "tabs",
+      "scripting",
+      "activeTab",
+      "downloads",
+      "storage",
+      "cookies",
+      "notifications"
+    ],
+    "host_permissions": [
+      "https://drrr.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://drrr.com/*"],
+        "js": ["foreground.js"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  
