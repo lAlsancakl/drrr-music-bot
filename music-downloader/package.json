@@ -1,0 +1,17 @@
+{
+  "name": "drrr-music-downloader",
+  "version": "1.0.0",
+  "description": "YouTube'dan müzik arayıp mp3 linki dönen DRRR bot sunucusu.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["drrr", "music", "bot", "downloader", "youtube", "mp3"],
+  "author": "Alsancak TR(死神)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "yt-search": "^2.13.1"
+  }
+}
