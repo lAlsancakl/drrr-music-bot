@@ -79,3 +79,4 @@ To start the server, run the server.js file using Node.js with the following com
 ```
 node server.js
 ```
+![Example Image](example.png)
