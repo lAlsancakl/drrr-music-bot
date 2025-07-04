@@ -14,7 +14,7 @@ Example:
 /play -url https://www.youtube.com/watch?v=dQw4w9WgXcQ
 The bot downloads the video, converts it to MP3, and plays it in the room.
 
-#Using ffmpeg with the Bot
+##Using ffmpeg with the Bot
 
 The bot requires ffmpeg to process audio streams.
 Make sure you have the folder ffmpeg-7.1.1-full_build-shared placed in the same directory as foreground.js.
@@ -23,7 +23,7 @@ The bot uses this folder to locate the ffmpeg binaries necessary for converting 
 *If ffmpeg is not correctly installed or the folder is missing, audio processing will fail.
 *Make sure the ffmpeg executable inside this folder has proper permissions.
 
-#HTTPS Setup with DuckDNS
+##HTTPS Setup with DuckDNS
 
 The bot's backend only accepts HTTPS requests for security reasons.
 This means you cannot use http:// URLs directly for the DuckDNS domain.
@@ -37,6 +37,6 @@ To enable HTTPS on your DuckDNS domain (your-domain.duckdns.org), follow these s
 
 This ensures secure communication between the bot and the music server, preventing insecure requests.
 
-#Other things I want to say
+##Other things I want to say
 
 Untick the allow only music casted from verified url Safer, less IP tracking from settings.
